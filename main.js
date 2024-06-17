@@ -9,11 +9,11 @@ function cotizarSeguro() {
     let costoBase;
 
     // Algoritmo condicional para determinar el costo base según el tipo de automóvil
-    if (tipoAuto == "Hatch") {
+    if (tipoAuto == "hatch") {
         costoBase = 500;
-    } else if (tipoAuto == "SUV") {
+    } else if (tipoAuto == "suv") {
         costoBase = 1000;
-    } else if (tipoAuto == "PickUp") {
+    } else if (tipoAuto == "pickup") {
         costoBase = 1500;
     } else {
         alert("Tipo de automóvil no válido. Por favor, inténtalo de nuevo.");
