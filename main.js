@@ -44,10 +44,11 @@ function cotizarSeguro() {
 
     // Mostrar resultado final
     alert(`${nombre}, el costo final de tu seguro es: $${costoFinal.toFixed(2)}`);
-    console.log(`Nombre: ${nombre}`);
-    console.log(`Edad: ${edad}`);
-    console.log(`Tipo de Automóvil: ${tipoAuto}`);
-    console.log(`Historial de Accidentes: ${historialAccidentes ? "Sí" : "No"}`);
-    console.log(`Años como Cliente: ${añosCliente}`);
-    console.log(`Costo Final: $${costoFinal.toFixed(2)}`);
-}
+    
+//     console.log(`Nombre: ${nombre}`);
+//     console.log(`Edad: ${edad}`);
+//     console.log(`Tipo de Automóvil: ${tipoAuto}`);
+//     console.log(`Historial de Accidentes: ${historialAccidentes ? "Sí" : "No"}`);
+//     console.log(`Años como Cliente: ${añosCliente}`);
+//     console.log(`Costo Final: $${costoFinal.toFixed(2)}`);
+// }
