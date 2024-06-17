@@ -36,7 +36,7 @@ function cotizarSeguro() {
         costoFinal += 300;
     }
 
-    // Algoritmo con ciclo para aplicar descuentos por fidelidad (simulado)
+    // Algoritmo con ciclo para aplicar descuentos por antiguedad
     let añosCliente = parseInt(prompt("¿Cuántos años has sido cliente de nuestra aseguradora?"));
     for (let i = 0; i < añosCliente; i++) {
         costoFinal *= 0.98; // Aplicamos un descuento del 2% por cada año de cliente
